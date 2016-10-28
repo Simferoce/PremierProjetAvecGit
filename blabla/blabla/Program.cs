@@ -19,7 +19,6 @@ namespace blabla
             if (nbAleatoire == 0)
             {
                 Console.WriteLine("oui monsieur!");
-            
             }
             else
             {
