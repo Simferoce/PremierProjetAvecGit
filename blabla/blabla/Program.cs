@@ -10,8 +10,23 @@ namespace blabla
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ca marche pas Simon :(");
-     
+            Console.WriteLine("Pose une question oui ou non");
+            Console.ReadLine();
+            Random rnd = new Random();
+            int nbAleatoire = rnd.Next(0, 1 + 1);
+            if (nbAleatoire == 0)
+            {
+                Console.WriteLine("oui");
+            
+    }
+            else
+            {
+                Console.WriteLine("non");
+            
+    }
+            Console.ReadKey();
+
+
         }
     }
 }
