@@ -18,8 +18,7 @@ namespace blabla
             int nbAleatoire = rnd.Next(0, 1 + 1);
             if (nbAleatoire == 0)
             {
-                Console.WriteLine("oui");
-            
+                Console.WriteLine("peut-être");
             }
             else
             {
