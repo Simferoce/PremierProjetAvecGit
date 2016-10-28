@@ -10,9 +10,8 @@ namespace blabla
     {
         static void Main(string[] args)
         {
-            //-----------------------------//
-            Console.WriteLine("Allo");
-            Console.ReadKey();
+            Console.WriteLine("Ca marche pas Simon :(");
+     
         }
     }
 }
