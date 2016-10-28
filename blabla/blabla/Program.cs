@@ -10,6 +10,8 @@ namespace blabla
     {
         static void Main(string[] args)
         {
+            while(true)
+            {
             Console.WriteLine("Pose une question oui ou non");
             Console.ReadLine();
             Random rnd = new Random();
@@ -18,15 +20,13 @@ namespace blabla
             {
                 Console.WriteLine("oui");
             
-    }
+            }
             else
             {
                 Console.WriteLine("non");
-            
-    }
-            Console.ReadKey();
-
-
+            }
+                Console.ReadKey();
+            }
         }
     }
 }
