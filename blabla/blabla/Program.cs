@@ -29,6 +29,8 @@ namespace blabla
                     Console.WriteLine("peut etre");
                 }
                 Console.ReadKey();
+                Console.WriteLine("Appuyez sur une touche pour recommencer");
+                Console.Clear();
             }
         }
     }
