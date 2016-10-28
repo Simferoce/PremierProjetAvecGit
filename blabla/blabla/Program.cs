@@ -15,15 +15,19 @@ namespace blabla
             Console.WriteLine("Pose une question oui ou non");
             Console.ReadLine();
             Random rnd = new Random();
-            int nbAleatoire = rnd.Next(0, 1 + 1);
-            if (nbAleatoire == 0)
-            {
-                Console.WriteLine("peut-être");
-            }
-            else
-            {
-                Console.WriteLine("non");
-            }
+            int nbAleatoire = rnd.Next(0, 2 + 1);
+                if (nbAleatoire == 0)
+                {
+                    Console.WriteLine("oui");
+                }
+                else if (nbAleatoire == 1)
+                {
+                    Console.WriteLine("non");
+                }
+                else
+                {
+                    Console.WriteLine("peut etre");
+                }
                 Console.ReadKey();
             }
         }
